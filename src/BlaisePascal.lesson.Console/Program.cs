@@ -5,10 +5,20 @@
     { 
         Console.WriteLine("Benvenuto nella libreria Easy Library!");
 
+
+        // Console.ReadLine() ci permette di leggere l'imput del cliente
+        // successivamnete assegno il valore letto alla variabile nomeCliente
+        Console.WriteLine("Inserisci il nome del cliente");
+        string nomeCliente = Console.ReadLine();
+
+        Console.WriteLine($"Benvenuto {nomeCliente}");
+        Console.WriteLine("Inserisci il tipo di spedizione");
+        Console.WriteLine("Inserisci il numero di pacchi acquistati")
+        int numeroPacchiComprati = int.Parse(Console.ReadLine());
+        
+
         int costoSpedizioneSingoloPacco = 5; // dichiarazione + assegnazione 
         costoSpedizioneSingoloPacco = 10; // assegnazione
-
-        int numeroPacchiComprati = 2;
 
         string tipoConsegna = "Standard"; // dichiarazione
 
