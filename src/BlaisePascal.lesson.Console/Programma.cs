@@ -1,7 +1,7 @@
-﻿public class Program // Questa è una classe
+﻿public class Programma // Questa è una classe
 {
     //Metodo di entrata per esecuzione del codice
-    public static void Main()
+    public static void Main()                                                                                            
     { 
         Console.WriteLine("Benvenuto nella libreria Easy Library!");
 
@@ -13,7 +13,8 @@
 
         Console.WriteLine($"Benvenuto {nomeCliente}");
         Console.WriteLine("Inserisci il tipo di spedizione");
-        Console.WriteLine("Inserisci il numero di pacchi acquistati")
+        string tipoSpedizioe = Console.ReadLine();
+        Console.WriteLine("Inserisci il numero di pacchi acquistati");
         int numeroPacchiComprati = int.Parse(Console.ReadLine());
         
 
@@ -30,6 +31,8 @@
         // $ carattere speciale per interpolazione di righe
         Console.WriteLine("Il tipo di consegna selezionata è: " + tipoConsegna);  
         Console.WriteLine(costoTotale);
+
+        Enemy new enemy = new Enemy(); // creazione del nuovo oggetto
     }
     
 } 
