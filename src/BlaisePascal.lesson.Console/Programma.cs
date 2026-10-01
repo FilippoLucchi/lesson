@@ -32,7 +32,9 @@
         Console.WriteLine("Il tipo di consegna selezionata è: " + tipoConsegna);  
         Console.WriteLine(costoTotale);
 
-        Enemy new enemy = new Enemy(); // creazione del nuovo oggetto
+        Enemy enemy = new Enemy(); // creazione del nuovo oggetto
     }
+
+    public class Enemy();
     
 } 
